@@ -15,7 +15,11 @@ const Shop = async ({ islandId, shopId }) => {
   return (
     <div>
       <ProductList islandId={islandId} shopId={shopId}></ProductList>
-      <ProductForm productType={shop.type}></ProductForm>
+      <ProductForm
+        productType={shop.type}
+        islandId={islandId}
+        shopId={shopId}
+      ></ProductForm>
     </div>
   );
 };

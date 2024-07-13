@@ -11,7 +11,12 @@ const IslandList = async () => {
       {islands.map((island) => {
         return (
           <Link href={`/clockhead/${island.name}`}>
-            <Image src={`${island.name}.svg`} width={250} height={250}></Image>
+            <Image
+              src={`${island.name}.svg`}
+              width={250}
+              height={250}
+              alt="island"
+            ></Image>
           </Link>
         );
       })}

@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 
-const Counter = () => {
+const Counter: React.FC = () => {
   const [count, setCount] = useState(0);
   const increaseCount = () => {
     setCount(count + 1);

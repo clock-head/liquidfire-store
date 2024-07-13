@@ -12,7 +12,7 @@ const SingleShopPage = async ({ params }) => {
   const shop = await getOneShopByIslandIdAndType(island.id, params.shop);
   return (
     <div>
-      <h1>Shop</h1>
+      <div>T-Shirts</div>
       <Shop islandId={island.id} shopId={shop.id}></Shop>
     </div>
   );

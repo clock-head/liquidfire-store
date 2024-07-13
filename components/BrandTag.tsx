@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-const BrandTag = () => {
+const BrandTag: React.FC = () => {
   return (
     <Fragment>
       <div className="card">

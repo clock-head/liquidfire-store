@@ -30,8 +30,9 @@ model Product {
   id String @id @default(uuid())
   shop_id String
   island_id String
+  name String
   type Int
   price Float
-  product_code Int
+  product_code String
   image_binary_hash String
 }
